@@ -3,7 +3,9 @@ import React from "react";
 // import StateHook from "./components/BasicHooks/StateHook";
 // import UnmountHook from "./components/BasicHooks/UnmountHook";
 // import RefHook from "./components/BasicHooks/RefHook";
-import CallBackHook from "./components/callBack/CallBackHook";
+// import CallBackHook from "./components/callBack/CallBackHook";
+import UsememoHook from "./components/useMemo/UseMemoHook";
+
 
 function App() {
   return (
@@ -16,7 +18,9 @@ function App() {
       {/* <UnmountHook /> */}
       {/* Ref Hooks  */}
       {/* <RefHook /> */}
-      <CallBackHook />
+      {/* Callback Hooks */}
+      {/* <CallBackHook /> */}
+      <UsememoHook />
     </div>
   );
 }
