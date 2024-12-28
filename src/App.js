@@ -4,8 +4,8 @@ import React from "react";
 // import UnmountHook from "./components/BasicHooks/UnmountHook";
 // import RefHook from "./components/BasicHooks/RefHook";
 // import CallBackHook from "./components/callBack/CallBackHook";
-import UsememoHook from "./components/useMemo/UseMemoHook";
-
+// import UsememoHook from "./components/useMemo/UseMemoHook";
+import Context from "./components/contextAPI/Context";
 
 function App() {
   return (
@@ -20,7 +20,10 @@ function App() {
       {/* <RefHook /> */}
       {/* Callback Hooks */}
       {/* <CallBackHook /> */}
-      <UsememoHook />
+      {/* useMemo Hooks */}
+      {/* <UsememoHook /> */}
+      {/* Context API */}
+      <Context />
     </div>
   );
 }
