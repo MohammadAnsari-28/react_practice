@@ -6,6 +6,7 @@ import React from "react";
 // import CallBackHook from "./components/callBack/CallBackHook";
 // import UsememoHook from "./components/useMemo/UseMemoHook";
 import Context from "./components/contextAPI/Context";
+import UseReducerHook from "./components/reducerHook/UseReducerHook";
 
 function App() {
   return (
@@ -23,7 +24,9 @@ function App() {
       {/* useMemo Hooks */}
       {/* <UsememoHook /> */}
       {/* Context API */}
-      <Context />
+      {/* <Context /> */}
+      {/* UseReducer hook */}
+      <UseReducerHook />
     </div>
   );
 }
